@@ -1,0 +1,112 @@
+id: 4oh7udTLm0e2magxtdPIuw
+projectId: CBfHRiCtEke6lC4kzjy2Ww
+projectName: KFCStaging-OutletApp
+created: 2022-07-19T09:22:58.3990349Z
+protocol: 1
+tests:
+- id: _kMDJnelNUS_MrK0WG1TSA
+  name: Reset Filter
+  description: This test was auto generated from steps of the 'Report' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-19T08:53:37.0000000
+  modificationDate: 2022-07-19T08:53:37.0000000
+  settings:
+    automationAssistant: true
+    appId: tj6EAlj1A0yNMAZzxENhLA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tj6EAlj1A0yNMAZzxENhLA
+    name: KFC Outlet App v1.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: xc-MTBJ9uEeqD3LaR6gcFA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: CBXp3qg5hECmhEJAHuXD6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NP2FzYPxR0qpaEx14x5YAw
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: gFnNL37f0kK6y52wWUQ6lg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: CBXp3qg5hECmhEJAHuXD6Q
+  name: Filter1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Filter
+              ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/button
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[1]/button
+    priority: 2
+- id: gFnNL37f0kK6y52wWUQ6lg
+  name: Reset
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Reset
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/div[24]/div[3]/div/button[1]
+    priority: 2
+projectParameters: []
+addons: []
