@@ -1,0 +1,108 @@
+id: r8N4DPVD1kWTw3Vd99S3Ig
+projectId: CBfHRiCtEke6lC4kzjy2Ww
+projectName: KFCStaging-OutletApp
+created: 2022-07-19T09:22:41.2786603Z
+protocol: 1
+tests:
+- id: W2VSvWSii0uFMCKtc_DgOA
+  name: GrabFood
+  description: This test was auto generated from steps of the 'Menu Activation' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-19T06:34:54.0000000
+  modificationDate: 2022-07-19T06:34:54.0000000
+  settings:
+    automationAssistant: true
+    appId: tj6EAlj1A0yNMAZzxENhLA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tj6EAlj1A0yNMAZzxENhLA
+    name: KFC Outlet App v1.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: xsLufhqhs0umZ6_Io4rQnw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: QW7qad0j4kaJAmize6DO5A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: irKqzszPJU-FLgk9bfyisA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: gc3yD_VfbU-n9xxuxb0xTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: QW7qad0j4kaJAmize6DO5A
+  name: GrabFood
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                  GrabFood
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[3]/div/div/div[1]/div[2]
+    priority: 2
+- id: gc3yD_VfbU-n9xxuxb0xTA
+  name: GrabFood Icon
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[1]//img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[3]/div/div/div[1]/div[1]/img
+    priority: 1
+projectParameters: []
+addons: []
