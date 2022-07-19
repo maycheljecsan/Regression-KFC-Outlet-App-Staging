@@ -1,0 +1,335 @@
+id: leQZF7prNk2MIlzmtPPxYw
+projectId: CBfHRiCtEke6lC4kzjy2Ww
+projectName: KFCStaging-OutletApp
+created: 2022-07-19T09:22:58.3989326Z
+protocol: 1
+tests:
+- id: Ymq3TNZ6QEiElpdvq2XD3w
+  name: Filter by Date
+  description: This test was auto generated from steps of the 'Report' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-19T08:53:06.0000000
+  modificationDate: 2022-07-19T08:53:06.0000000
+  settings:
+    automationAssistant: true
+    appId: tj6EAlj1A0yNMAZzxENhLA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tj6EAlj1A0yNMAZzxENhLA
+    name: KFC Outlet App v1.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: hv-cxweUo0e4utIVCzboxg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: CBXp3qg5hECmhEJAHuXD6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -nm-vl8NGk2ZoPaIa5PuRQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ZRLdA3XMEk-bPRPKqTW1nQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FJwi7hgz50GZywgEVE5lNQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: ZRLdA3XMEk-bPRPKqTW1nQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gyvfdxGpaU6vp5HJQgfXrA
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: ZRLdA3XMEk-bPRPKqTW1nQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JN2k7wm-TUy79qn-dGW9Iw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: xHeulw071UmSuCAGTM0t0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ah1acjMePEeLie1rdltxQQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: UOdRm7-fPUOBF8RhOimU7Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OJyInIJ_6kGSi5Ch7WNRCg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: fti7nkJ8jE2b1mn9jEpaJA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RFbaxLgvnE6i2VaP2DDxwQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: SQqyiVPi5UKJYvjM5EtlEA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: akm5x_C-Ik6bqwSgGhuSSA
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: 7xeCS3FX602XqdRWJuX1sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: CBXp3qg5hECmhEJAHuXD6Q
+  name: Filter1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                Filter
+              ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/button
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[1]/button
+    priority: 2
+- id: ZRLdA3XMEk-bPRPKqTW1nQ
+  name: order-status1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#order-status'
+    priority: 0
+  - name: XPATH
+    value: //div[3]//select
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/div[24]/div[2]/div[3]/div/select
+    priority: 2
+- id: xHeulw071UmSuCAGTM0t0w
+  name: dd/mm/yyyy From Kfcku
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//input[@placeholder = 'dd/mm/yyyy']
+    priority: 0
+  - name: XPATH
+    value: //div[4]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/div[24]/div[2]/div[4]/div[2]/div[1]/input
+    priority: 2
+- id: UOdRm7-fPUOBF8RhOimU7Q
+  name: 4
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//span[. = '4']
+    priority: 0
+  - name: XPATH
+    value: //div[4]//span[16]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[24]/div[2]/div[4]/div[2]/div[2]/div/span[16]
+    priority: 2
+- id: fti7nkJ8jE2b1mn9jEpaJA
+  name: dd/mm/yyyy To Kfcku
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]//input[@placeholder = 'dd/mm/yyyy']
+    priority: 0
+  - name: XPATH
+    value: //div[5]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div/div[2]/div[2]/div[24]/div[2]/div[5]/div[2]/div[1]/input
+    priority: 2
+- id: SQqyiVPi5UKJYvjM5EtlEA
+  name: 10
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]//span[. = '10']
+    priority: 0
+  - name: XPATH
+    value: //div[5]//span[22]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[24]/div[2]/div[5]/div[2]/div[2]/div/span[22]
+    priority: 2
+- id: 7xeCS3FX602XqdRWJuX1sQ
+  name: Apply
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Apply
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[24]/div[3]/div/button[2]
+    priority: 2
+projectParameters: []
+addons: []
