@@ -1,0 +1,559 @@
+id: gq07XRGrGUWWw6mnJhExFQ
+projectId: CBfHRiCtEke6lC4kzjy2Ww
+projectName: KFCStaging-OutletApp
+created: 2022-07-19T09:22:28.0715655Z
+protocol: 1
+tests:
+- id: BF2h2KEiuUeNngOCcPZXpw
+  name: 2. Filter by payment
+  description: Filter by Payment on KFCKu, Gofood, Grabfood
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-01-18T02:50:04.0000000
+  modificationDate: 2021-01-18T03:37:24.0000000
+  settings:
+    automationAssistant: true
+    appId: tj6EAlj1A0yNMAZzxENhLA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: tj6EAlj1A0yNMAZzxENhLA
+    name: KFC Outlet App v1.0
+    url: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    platform: Web
+  steps:
+  - id: AsvCs3NmJESyJRZG9S2fuA
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 6d9iB8TiVk6zoLZ-l6d_Nw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bQcAO_aPVEeU87-GqNWy4w
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: dLTjnamqyUyIJ0BgfpodSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DGMwS4uWq0WABKrt--xA0Q
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: HdxP5_NGlkasa4VMAPOnpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XUAZ8WHXfkSVoOoHYNVtfw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: HdxP5_NGlkasa4VMAPOnpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: DNA
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hHosqNY0lEiwuuKXzBSz-w
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 7xeCS3FX602XqdRWJuX1sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d0yzd51dt0eOi_BoSIIHTA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: kW81i1lsf0KWZinhROcT4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VJVhXNe8xkCxUx9FhgIl0Q
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    elementId: kW81i1lsf0KWZinhROcT4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 7i7ugpUNpkej4ZOFJYYMcw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: attributeName
+      value: src
+      direction: Input
+    - name: attributeValue
+      value: '[[DanaPaymentImg]]'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: attributeValue
+      value: '[[DanaPaymentImg]]'
+    contexts: []
+  - id: vUqJ02zonEO7A32jpIfPbg
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: dLTjnamqyUyIJ0BgfpodSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9TYM_t0VX0qzRL6tG_DZig
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: HdxP5_NGlkasa4VMAPOnpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hcPjwNQlFU2sNGyMFxPsfQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: HdxP5_NGlkasa4VMAPOnpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: CSH
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _jIoeBEUSkaFaC1ucWS0GQ
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 7xeCS3FX602XqdRWJuX1sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BxqjhwDVjUexRqK3MRW1uw
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: J8VQMWOeI0ib4jtPlkASRQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pbqglmiQeUOr3vYVHvVo0Q
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: dLTjnamqyUyIJ0BgfpodSg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XfTWiK7CjUWRiJPio3hWLw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: HdxP5_NGlkasa4VMAPOnpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kbmQWHS2-0-EzBZ6baGF8A
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: HdxP5_NGlkasa4VMAPOnpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: GPY
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yZGmF5vY302VTIg0RSvsuQ
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 7xeCS3FX602XqdRWJuX1sQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vczIv3Ee9UeDdqgYrQAdew
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Addon
+    elementId: kW81i1lsf0KWZinhROcT4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 7i7ugpUNpkej4ZOFJYYMcw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: attributeName
+      value: src
+      direction: Input
+    - name: attributeValue
+      value: '[[GpyPaymentImg]]'
+      direction: Output
+    conditions: []
+    validations:
+    - type: Equals
+      invert: false
+      field: attributeValue
+      value: '[[GpyPaymentImg]]'
+    contexts: []
+  - id: isvjObnWx0yAIqWz-juyfg
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: FbPesKoHmEuRs5MChYw30w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://kfcjv-staging-3f3f4.firebaseapp.com/
+    type: Input
+auxTests: []
+elements:
+- id: 6d9iB8TiVk6zoLZ-l6d_Nw
+  name: Report - KFCKU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                  KFCKU
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[1]/div/div/div[1]/div[2]
+    priority: 2
+- id: dLTjnamqyUyIJ0BgfpodSg
+  name: Filter
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                Filter
+              ']
+    priority: 0
+  - name: XPATH
+    value: //button//div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[1]/button/div/div[2]
+    priority: 2
+- id: HdxP5_NGlkasa4VMAPOnpg
+  name: payment-method
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#payment-method'
+    priority: 0
+  - name: XPATH
+    value: //*[@id='payment-method']
+    priority: 1
+- id: 7xeCS3FX602XqdRWJuX1sQ
+  name: Apply
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Apply
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[24]/div[3]/div/button[2]
+    priority: 2
+- id: kW81i1lsf0KWZinhROcT4Q
+  name: Payment Image
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[3]//img
+    priority: 0
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[3]/div/div[3]/div[1]/div[2]/div/img
+    priority: 1
+- id: J8VQMWOeI0ib4jtPlkASRQ
+  name: Payment Cash
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjY
+    name: Abbreviation
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[3]/div/div[3]/div[1]/div/div[. = '
+                      CASH
+                    ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div[3]/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[3]/div/div[3]/div[1]/div[2]/div
+    priority: 2
+- id: FbPesKoHmEuRs5MChYw30w
+  name: Outlet App - Back Button Image
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/div/div[1]/div[1]/img
+    priority: 0
+  - name: XPATH
+    value: //*[@id='app']/div/div[1]/div/div[1]/div[1]/img
+    priority: 1
+projectParameters: []
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: 7i7ugpUNpkej4ZOFJYYMcw
+    name: Get attribute value
+    description: Get {{attributeName}} attribute value on {{element}}
+    className: io.testproject.addons.web.element.GetElementAttribute
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
