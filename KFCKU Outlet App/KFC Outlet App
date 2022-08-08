@@ -1,7 +1,7 @@
-id: F0H9o9CVa0qt59E_pXh51g
+id: p7BVk35KzEKSD12xu7gDjw
 projectId: CBfHRiCtEke6lC4kzjy2Ww
 projectName: KFCStaging-OutletApp
-created: 2022-07-19T09:22:28.0719946Z
+created: 2022-08-08T06:19:50.6792060Z
 protocol: 1
 tests:
 - id: Z54iWQ4wzUSbAtV3UkKJtw
@@ -324,7 +324,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-07-19T06:22:54.0000000
-  modificationDate: 2022-07-19T06:22:54.0000000
+  modificationDate: 2022-08-08T06:19:46.0000000
   settings:
     automationAssistant: true
     appId: tj6EAlj1A0yNMAZzxENhLA
@@ -415,7 +415,7 @@ auxTests:
       source: System
     parameterMaps:
     - name: keys
-      value: MTH0208app
+      value: 12345678
       direction: Input
     conditions: []
     validations: []
@@ -1578,57 +1578,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[1]/div/div[1]
     priority: 1
-- id: DjmyTwiFek6uFcRYW2zBOg
-  name: Email
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: XPATH
-    value: //*[@placeholder = 'Email']
-    priority: 1
-  - name: XPATH
-    value: //*[@id='email']
-    priority: 2
-- id: lwgINrMvFkaJJV_njTwT_A
-  name: Password
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#password'
-    priority: 0
-  - name: XPATH
-    value: //*[@placeholder = 'Password']
-    priority: 1
-  - name: XPATH
-    value: //*[@id='password']
-    priority: 2
-- id: zvW1vyZb0k-eytrH8pQjqQ
-  name: Sign In
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //button[. = '
-                  Sign In
-                ']
-    priority: 0
-  - name: XPATH
-    value: //button
-    priority: 1
-  - name: XPATH
-    value: //*[@id='app']/div/div/form/div/div[2]/button
-    priority: 2
 - id: D27bDoKm1kuW19s0kRtn-A
   name: Outlet App - MM Menu Activation
   type:
@@ -2302,6 +2251,57 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[3]/div/div[2]
     priority: 1
+- id: DjmyTwiFek6uFcRYW2zBOg
+  name: Email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#email'
+    priority: 0
+  - name: XPATH
+    value: //*[@placeholder = 'Email']
+    priority: 1
+  - name: XPATH
+    value: //*[@id='email']
+    priority: 2
+- id: lwgINrMvFkaJJV_njTwT_A
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: XPATH
+    value: //*[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //*[@id='password']
+    priority: 2
+- id: zvW1vyZb0k-eytrH8pQjqQ
+  name: Sign In
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //button[. = '
+                  Sign In
+                ']
+    priority: 0
+  - name: XPATH
+    value: //button
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div/form/div/div[2]/button
+    priority: 2
 projectParameters: []
 addons:
 - id: 9G7qW0nEqU60ObO6IXJshg
