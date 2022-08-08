@@ -1,7 +1,7 @@
-id: 2bEMyq--D0WvOvHOZ0K2vQ
+id: -l4B9Z4ck0qyS5pKp1lQtA
 projectId: CBfHRiCtEke6lC4kzjy2Ww
 projectName: KFCStaging-OutletApp
-created: 2022-07-19T09:22:54.2674896Z
+created: 2022-08-08T06:20:59.5744749Z
 protocol: 1
 tests:
 - id: p2YWXuEULEywFa91hguCxQ
@@ -584,7 +584,7 @@ auxTests:
   driverType: Chrome
   version: 1.0
   creationDate: 2022-07-19T08:40:24.0000000
-  modificationDate: 2022-07-19T08:40:24.0000000
+  modificationDate: 2022-08-08T06:20:55.0000000
   settings:
     automationAssistant: true
     appId: tj6EAlj1A0yNMAZzxENhLA
@@ -675,7 +675,7 @@ auxTests:
       source: System
     parameterMaps:
     - name: keys
-      value: MTH0208app
+      value: 12345678
       direction: Input
     conditions: []
     validations: []
@@ -2595,6 +2595,192 @@ auxTests:
     contexts: []
   parameters: []
 elements:
+- id: EqndeqRHS026KmDpG_IIdw
+  name: Outlet App - MM Report
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                    Report
+                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div[1]/div[3]//div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div/div[3]/div/div[1]/div[3]/div/div[2]
+    priority: 2
+- id: M6_YfHqLNUaKLtDwKIPr4Q
+  name: Report Icon
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[3]/div/div[1]/div[3]/div/div[1]/img
+    priority: 1
+- id: ICaqZSdoTk6mmU4KGZc4Yw
+  name: DIV22
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[1]/div[3]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[3]/div/div[1]/div[3]/div
+    priority: 1
+- id: Rv80RtCfyk257wUEHDxJuw
+  name: Listing Order Type
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]
+    priority: 1
+- id: 6d9iB8TiVk6zoLZ-l6d_Nw
+  name: Report - KFCKU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                  KFCKU
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[1]/div/div/div[1]/div[2]
+    priority: 2
+- id: sSMa2B3znU2olFSR0NqB6w
+  name: KFCKU Icon
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[1]/div/div/div[1]/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/div[1]/img
+    priority: 1
+- id: 39k4i_Us70eqNHwbj2BCNQ
+  name: GoFood
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[1]/div[2][. = '
+                  GoFood
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/div[2]/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[2]/div/div/div[1]/div[2]
+    priority: 2
+- id: nt08dHqDAkucaT-1A-Y2oA
+  name: GoFood Icon
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/div/div[1]/div[1]/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/img
+    priority: 1
+- id: QW7qad0j4kaJAmize6DO5A
+  name: GrabFood
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                  GrabFood
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: //*[@id='app']/div/div[2]/div[2]/div[3]/div/div/div[1]/div[2]
+    priority: 2
+- id: gc3yD_VfbU-n9xxuxb0xTA
+  name: GrabFood Icon
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[1]//img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[3]/div/div/div[1]/div[1]/img
+    priority: 1
+- id: 0_IUHNzenEyTw8XSKbzn6Q
+  name: ChatBot1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //div[2][. = '
+                  ChatBot
+                ']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/div/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[4]/div/div/div[1]/div[2]
+    priority: 2
+- id: nsdgz0olhEu47wtrg4B4hw
+  name: Report ChatBot Icon
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/div/div/div[1]//img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/img
+    priority: 1
 - id: SSl1LQSY6EOhH1u8r1Hgfg
   name: Drive Thru1
   type:
@@ -3295,192 +3481,6 @@ elements:
   - name: XPATH
     value: //*[@id='app']/div/div/form/div/div[2]/button
     priority: 2
-- id: EqndeqRHS026KmDpG_IIdw
-  name: Outlet App - MM Report
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[2][. = '
-                    Report
-                  ']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div[1]/div[3]//div[2]
-    priority: 1
-  - name: XPATH
-    value: //*[@id='app']/div/div[2]/div/div[3]/div/div[1]/div[3]/div/div[2]
-    priority: 2
-- id: M6_YfHqLNUaKLtDwKIPr4Q
-  name: Report Icon
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTI
-    name: Image
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/div/img
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[3]/div/div[1]/div[3]/div/div[1]/img
-    priority: 1
-- id: ICaqZSdoTk6mmU4KGZc4Yw
-  name: DIV22
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/div[1]/div[3]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[3]/div/div[1]/div[3]/div
-    priority: 1
-- id: Rv80RtCfyk257wUEHDxJuw
-  name: Listing Order Type
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //body/div/div/div[2]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]
-    priority: 1
-- id: 6d9iB8TiVk6zoLZ-l6d_Nw
-  name: Report - KFCKU
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[2][. = '
-                  KFCKU
-                ']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div[1]/div/div/div/div[2]
-    priority: 1
-  - name: XPATH
-    value: //*[@id='app']/div/div[2]/div[2]/div[1]/div/div/div[1]/div[2]
-    priority: 2
-- id: sSMa2B3znU2olFSR0NqB6w
-  name: KFCKU Icon
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTI
-    name: Image
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/div[1]/div/div/div[1]/div/img
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div[2]/div[1]/div/div/div[1]/div[1]/img
-    priority: 1
-- id: 39k4i_Us70eqNHwbj2BCNQ
-  name: GoFood
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[1]/div[2][. = '
-                  GoFood
-                ']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div[2]/div[2]/div/div/div/div[2]
-    priority: 1
-  - name: XPATH
-    value: //*[@id='app']/div/div[2]/div[2]/div[2]/div/div/div[1]/div[2]
-    priority: 2
-- id: nt08dHqDAkucaT-1A-Y2oA
-  name: GoFood Icon
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTI
-    name: Image
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[2]/div/div/div[1]/div[1]/img
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div[2]/div[2]/div/div/div[1]/div[1]/img
-    priority: 1
-- id: QW7qad0j4kaJAmize6DO5A
-  name: GrabFood
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[2][. = '
-                  GrabFood
-                ']
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div/div/div[2]
-    priority: 1
-  - name: XPATH
-    value: //*[@id='app']/div/div[2]/div[2]/div[3]/div/div/div[1]/div[2]
-    priority: 2
-- id: gc3yD_VfbU-n9xxuxb0xTA
-  name: GrabFood Icon
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTI
-    name: Image
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/div/div[1]//img
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div[2]/div[3]/div/div/div[1]/div[1]/img
-    priority: 1
-- id: 0_IUHNzenEyTw8XSKbzn6Q
-  name: ChatBot1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //div[2][. = '
-                  ChatBot
-                ']
-    priority: 0
-  - name: XPATH
-    value: //div[4]/div/div/div/div[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div[2]/div[4]/div/div/div[1]/div[2]
-    priority: 2
-- id: nsdgz0olhEu47wtrg4B4hw
-  name: Report ChatBot Icon
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTI
-    name: Image
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/div/div/div[1]//img
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div[2]/div[4]/div/div/div[1]/div[1]/img
-    priority: 1
 projectParameters: []
 addons:
 - id: m9XGecbZqU62EXYlC04AOQ
